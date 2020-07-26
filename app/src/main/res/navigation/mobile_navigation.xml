@@ -7,15 +7,15 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.Romanizer.wakeme.ui.home.HomeFragment"
+        android:name="com.Romanizer.wakeme.ui.info.InfoFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_info" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.Romanizer.wakeme.ui.dashboard.DashboardFragment"
+        android:name="com.Romanizer.wakeme.ui.alarms.AlarmsFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_alarms" />
 
     <fragment
         android:id="@+id/navigation_notifications"
